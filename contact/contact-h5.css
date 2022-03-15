@@ -1,0 +1,196 @@
+page,
+body {
+	min-height: 100%;
+	height: inherit;
+	position: relative;
+}
+
+.content {
+	height: 100%;
+	/* background: url(../../static/cn/home/1.jpg) no-repeat 50% bottom; */
+	background-repeat: no-repeat;
+	background-position: right 10%;
+	background-color: #eee;
+	background-size: 80% auto;
+}
+
+.pg-main {
+	width: 100%;
+	position: relative;
+}
+
+.form-box {
+	width: 92%;
+	margin: 15px auto;
+}
+
+.form-tip {
+	text-align: center;
+	font-size: 20px;
+	line-height: 2;
+	padding: 15px 5px 15px;
+}
+
+.form-row {
+	padding: 0 0 15px;
+}
+
+.form-block {
+	margin-bottom: 25px;
+}
+.sub-btn{
+	display: flex;
+	justify-content: center;
+}
+.submit-btn {
+	border: none;
+	margin: 15px auto;
+	background-color: #d4151a;
+	color: #fff;
+	font-size: 40upx;
+	width: 60%;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.uni-list-box {
+	background-color: rgba(255, 255, 255, .7);
+	padding: 12.5px;
+	border-radius: 7.5px;
+}
+
+.uni-list-block {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: flex-start;
+	flex-direction: row;
+	border-bottom: 1px solid #dcdddd;
+	padding: 5px;
+}
+
+.alignTop {
+	align-items: flex-start;
+}
+
+.uni-list-block:last-child {
+	border-bottom: none;
+}
+
+.uni-list-left {
+	width: 21%;
+	font-size: 15px;
+}
+
+.uni-list-right {
+	flex: 1;
+}
+
+.u-txtarea {
+	height: 50px;
+	width: auto;
+}
+
+.u-ipt {
+	font-size: 17px;
+	padding: 5px 4px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+.contact-info {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	background-color: #c3aa9b;
+	color: #FFFFFF;
+	font-size: 24px;
+	border-radius: 7.5px;
+	overflow: hidden;
+}
+
+.c-block {
+	;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
+
+.c-row {
+	width: 82%;
+}
+
+.c-left {
+	width: 38%;
+	position: relative;
+}
+
+.c-init {
+	position: relative;
+	background-color: #162f7f;
+	border-radius: 7.5px;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	padding: 2px 5px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
+
+.c-left:after {
+	content: " ";
+	width: 10px;
+	background-color: #FFFFFF;
+	border-radius: 0 7.5px 7.5px 0;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: -10px;
+	z-index: 1;
+}
+
+.c-name {
+	font-weight: bold;
+}
+
+.c-right {
+	width: 62%;
+}
+
+a.mailto {
+	color: #fff;
+	text-decoration: none;
+}
+
+.lang-en .form-tip {
+	font-size: 17px;
+}
+
+.lang-en .form-phone .uni-list-left {
+	width: 40%;
+}
+
+.lang-en .form-company .uni-list-left {
+	width: 30%;
+}
+
+.lang-en .form-mark .uni-list-left,
+.lang-en .form-mark .uni-list-right {
+	width: 100%;
+}
+
+.lang-en .form-mark {
+	flex-direction: column
+}
+
+.lang-en .c-left .c-row {
+	width: 55%;
+}

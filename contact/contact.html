@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<!-- <meta charset="utf-8"> -->
+		<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="./contact-h5.css" />
+	</head>
+	<body>
+		<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+			<div class="form-block uni-list-box">
+				<div class="form-row">
+					<input type=hidden name="oid" value="00D2w000005mokX">
+					<input type=hidden name="retURL" value="http://www.em-lyon.com.cn">
+					<div class="uni-list-block">
+						<label for="last_name">姓</label>
+						<input class="uni-input u-ipt" id="last_name" maxlength="80" name="last_name" size="20"
+							type="text" />
+					</div>
+					<div class="uni-list-block">
+						<label for="first_name">名</label>
+						<input class="uni-input u-ipt" id="first_name" maxlength="40" name="first_name" size="20"
+							type="text" />
+					</div>
+					<div class="uni-list-block">
+						年龄:<input class="uni-input u-ipt" id="00N2w00000Jp1lO" name="00N2w00000Jp1lO" size="20"
+							type="text" />
+					</div>
+					<div class="uni-list-block">
+						手机号码:<input class="uni-input u-ipt" id="00N2w00000JFpFP" maxlength="80" name="00N2w00000JFpFP"
+							size="20" type="text" />
+					</div>
+					<div class="uni-list-block">
+						<label for="email">电子邮件</label><input class="uni-input u-ipt" id="email" maxlength="80"
+							name="email" size="20" type="text" />
+					</div>
+					<div class="uni-list-block">
+						<label for="company">公司</label><input class="uni-input u-ipt" id="company" maxlength="40"
+							name="company" size="20" type="text" />
+					</div>
+					<div class="uni-list-block">
+						职位:<input class="uni-input u-ipt" id="00N2w00000JFpFR" maxlength="80" name="00N2w00000JFpFR"
+							size="20" type="text" />
+					</div>
+					<div class="uni-list-block">
+						工作年限:<input class="uni-input u-ipt" id="00N2w00000JFpFa" name="00N2w00000JFpFa" size="20"
+							type="text" />
+					</div>
+					<div class="uni-list-block">
+						毕业院校:<input class="uni-input u-ipt" id="00N2w00000JFpFG" maxlength="255" name="00N2w00000JFpFG"
+							size="20" type="text" />
+					</div>
+					<div class="uni-list-block">
+						最高学历:<input class="uni-input u-ipt" id="00N2w00000Jp1lQ" maxlength="255" name="00N2w00000Jp1lQ"
+							size="20" type="text" />
+					</div>
+
+					<!--  注意：默认DBA项目并隐藏      -->
+					<label for="WebSource" hidden="true">对哪个项目感兴趣：</label><select id="00N2w00000JFpFT"
+						name="00N2w00000JFpFT" title="对哪个项目感兴趣" hidden="true">
+						<option value="">--无--</option>
+						<option value="DBA" selected>DBA</option>
+						<option value="EMBA">EMBA</option>
+						<option value="CBL">CBL</option>
+						<option value="EDP">EDP</option>
+						<option value="EDP-轩辕">EDP-轩辕</option>
+						<option value="EDP-神州英才">EDP-神州英才</option>
+						<option value="Master/Bachelor">Master/Bachelor</option>
+						<option value="NONE">NONE</option>
+					</select>
+
+					<!--  注意：以下隐藏字段为项目默认投放参数，每个投放项对应一个参数      -->
+					<label for="WebSource" hidden="true">Web投放来源-头条</label><input id="00NBB000000OA9f" maxlength="255"
+						name="00NBB000000OA9f" value="web-source-toutiao" hidden="true" type="text" />
+					<!-- label for="WebSource" hidden="true">Web投放来源-抖音</label><input  id="00NBB000000OA9f" maxlength="255" name="00NBB000000OA9f" value="web-source-douyin" hidden="true" type="text" />-->
+					<!-- label for="WebSource" hidden="true">Web投放来源-知乎</label><input  id="00NBB000000OA9f" maxlength="255" name="00NBB000000OA9f" value="web-source-zhihu" hidden="true" type="text" />-->
+					<!--label for="WebSource" hidden="true">Web投放来源-官网</label><input  id="00NBB000000OA9f" maxlength="255" name="00NBB000000OA9f" value="web-source-officialweb" hidden="true" type="text" />-->
+					<!--label for="WebSource" hidden="true">Web投放来源-微信公众号</label><input  id="00NBB000000OA9f" maxlength="255" name="00NBB000000OA9f" value="officialaccount" hidden="true" type="text" />-->
+
+					<div class="sub-btn"><input type="submit" name="submit" class="submit-btn"></div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
